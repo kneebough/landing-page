@@ -6,3 +6,82 @@ body {
     font-family: 'Roboto', arial;
   }
   
+  .herotitle {
+    font-size: 48px;
+    font-weight: bold;
+    color: #f9faf8;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .header {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+    color: #e5e7eb;
+    align-items: start;
+    padding-top: 10px;
+  }
+  
+  .headerlogo {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+    padding-left: 10%;
+  }
+  
+  .headerlinkgroup {
+    display: flex;
+    flex: 1 1 auto;
+    justify-content: right;
+    padding-right: 10%;
+  }
+  
+  .headerlink {
+    font-size: 18px;
+    margin-left: 15px;
+  }
+  
+  .hero {
+    height: 250px;
+    padding: 75px 0 75px 0;
+    background-color: #1F2937;
+    left: 0;
+    width: 100%;
+    color: #e5e7eb;
+    display: flex;
+    flex: 1 1 auto;
+  }
+  
+  .herotext {
+    width: 50%;
+    padding-left: 10%;
+    text-align: left;
+  }
+  
+  .heroimg {
+    width: 50%;
+    margin-right: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #6d747d;
+  }
+  
+  .herobutton {
+    display: block;
+    text-align: center;
+    width: 110px;
+    border: none;
+    background: #3882f6;
+    padding: 10px;
+    border-radius: 8px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
