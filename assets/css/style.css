@@ -6,7 +6,6 @@ body {
   
 .one {
   display: flex;
-  flex-direction: column;
 }
 
 .topbar {
@@ -49,8 +48,6 @@ body {
   height: 250px;
   padding: 75px 0 75px 0;
   background-color: #1F2937;
-  left: 0;
-  width: 100%;
   color: #e5e7eb;
   display: flex;
   flex: 1 1 auto;
@@ -70,7 +67,6 @@ body {
 }
 
 .herobutton {
-  display: block;
   text-align: center;
   width: 110px;
   border: none;
@@ -89,4 +85,102 @@ body {
   align-items: center;
   justify-content: center;
   background-color: #6d747d;
+}
+
+.three {
+  display: flex;
+  background-color: white;
+  justify-content: center;
+}
+
+.threetitle {
+  font-size: 36px;
+  font-weight: bold;
+  color: #1F2937;
+  margin-left: 14%;
+  margin-right: 14%;
+  padding-top: 75px;
+  padding-bottom: 30px;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+}
+
+.gallerycontainer {
+  margin: 0 25px 75px 0;
+}
+
+.gallerysquare {
+  border-radius: 8px;
+  width: 150px;
+  height: 150px;
+  border: 3px solid #3882f6;
+}
+
+.gallerytext {
+  text-align: center;
+  width: 150px;
+  margin-top: 10px;
+}
+
+.four {
+  background-color: #e5e7eb;
+}
+
+.quote {
+  font-weight: 100;
+  font-style: italic;
+  color: #1F2937;
+  font-size: 34px;
+  padding: 75px 14% 0px 14%;
+  margin: 0 50px 0 50px;
+  width: 60%;
+}
+
+.quoteby {
+  font-weight: bold;
+  text-align: end;
+  padding: 0 14% 75px 14%;
+  margin: 0 50px 0 50px;
+}
+
+.cta {
+  margin: 75px 14% 75px 14%;
+  background-color: #3882f6;
+  color: white;
+  display: flex;
+  height: 100px;
+  border-radius: 8px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 80px 0 80px;
+}
+
+.ctatext {
+  text-align: left;
+}
+
+.ctaheading {
+  font-weight: bold;
+  margin-bottom: 3px;
+  font-size: 18px;
+}
+
+.ctaunder {
+  font-size: 13px;
+}
+
+.ctabutton {
+  border: 2px solid white;
+  border-radius: 8px;
+  width: 100px;
+  height: 25px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
